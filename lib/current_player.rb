@@ -4,6 +4,7 @@ def turn_count(board)
       counter += 1
     end
   end
+end
 
   def current_player(display_board)
     turn_count(board)
@@ -13,4 +14,3 @@ def turn_count(board)
       return "O"
     end
   end
-  
